@@ -1,20 +1,10 @@
-# Shared public data (BabyView Objects manuscript)
+# Shared anonymized data (BabyView Objects)
 
-Anonymized intermediate tables for the BabyView Objects manuscript (June 2026).
-Safe to redistribute with the repository: no raw video, crop paths, or real
-participant identifiers.
+Anonymized intermediate tables for the *BabyView Objects* manuscript (June 2026).
+No raw video, crop paths, or real participant identifiers.
 
-## Regenerating
-
-From the repository root (after running the manuscript pipeline locally):
-
-```bash
-python analysis/manuscript-2026/scripts/build_shared_public_data.py
-```
-
-Reads from `analysis/manuscript-2026/main_results_*`, `exemplar_set_embeddings/`,
-and `data/`, then writes this directory. Real subject IDs are mapped to
-`participant_01`–`participant_08` in memory only.
+Compare these CSVs to the manuscript, or run `code/run`
+(see [`../../REPRODUCING.md`](../../REPRODUCING.md)).
 
 ## Layout
 
@@ -26,9 +16,9 @@ and `data/`, then writes this directory. Real subject IDs are mapped to
 | `inputs/` | Detection prevalence, precision, animal-depiction proportions |
 | `embeddings/` | Category-level z-scored exemplar means (BV + THINGS) |
 | `results_valid129/` | Main-text statistics tables |
-| `top8_valid85/{clip,dinov3}/` | Anonymized top-8 CDI vs THINGS tables |
+| `vqa_detections/` | YOLOE↔VQA SI summaries + figures |
 
-## Analysis code
+## Related code
 
-Notebooks and scripts: [`analysis/manuscript-2026/`](../../analysis/manuscript-2026/).
-See [`REPRODUCTION.md`](../../analysis/manuscript-2026/REPRODUCTION.md).
+- Manuscript analyses: [`../../code/manuscript-2026/`](../../code/manuscript-2026/)
+- Reproducible Run: [`../../code/run`](../../code/run)

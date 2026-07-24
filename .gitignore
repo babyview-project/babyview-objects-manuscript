@@ -1,0 +1,16 @@
+# Local / Code Ocean run outputs (recreated by code/run)
+results/**
+!results/.gitkeep
+
+# Regenerated manuscript trees (written under code/ during local runs; published copy goes to results/)
+code/manuscript-2026/main_results_*/
+code/manuscript-2026/supplemental_results_*/
+
+# Manuscript PDF (not part of the compute capsule)
+BV_Objects_Manuscript_NHB_Submission_*.pdf
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store

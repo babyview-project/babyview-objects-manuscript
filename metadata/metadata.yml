@@ -1,0 +1,52 @@
+metadata_version: 1
+name: Characterizing the visual representation of objects from the child’s view
+description: |-
+  # Characterizing the visual representation of objects from the child’s view
+
+  Computational reproducibility capsule for the *BabyView Objects* manuscript (*Nature Human Behaviour* submission, 2026).
+
+  ## What this capsule provides
+
+  - Analysis code under `code/manuscript-2026/`
+  - Anonymized intermediate tables under `data/shared_data_manuscript_2026/`
+  - A fixed compute environment for a **Reproducible Run**
+
+  Manuscript embedding analyses use **CLIP** and **DINOv3**.
+
+  ## How to use
+
+  1. Click **Reproducible Run** (entry point: `code/run`).
+  2. Inspect `/results` (especially `/results/shared/`).
+  3. Compare manuscript statistics to the shipped CSVs.
+
+  Details: [`REPRODUCING.md`](REPRODUCING.md) and [`code/manuscript-2026/DATA_AVAILABILITY.md`](code/manuscript-2026/DATA_AVAILABILITY.md).
+
+  ## What a Reproducible Run does
+
+  - Verifies every file listed in `data/shared_data_manuscript_2026/MANIFEST.json`
+  - Copies the full anonymized shared tree to `/results/shared/` for the computation snapshot
+
+  Optional: set `RUN_NOTEBOOKS=1` to re-execute notebooks **02**, **03**, and **05** from shipped category-level embeddings.
+
+  ## Scope
+
+  This capsule supports checking manuscript numbers from anonymized intermediates. It does **not** include raw BabyView video, crop paths, or real participant identifiers. Analyses that require those restricted assets are documented but outside the default run.
+authors:
+- name: Jane Yang
+  affiliations:
+  - name: University of California San Diego
+- name: Tarun Sepuri
+  affiliations:
+  - name: University of California San Diego
+- name: Alvin W.M. Tan
+  affiliations:
+  - name: Stanford University
+- name: Khai Loong Aw
+  affiliations:
+  - name: Stanford University
+- name: Michael C. Frank
+  affiliations:
+  - name: Stanford University
+- name: Bria Long
+  affiliations:
+  - name: University of California San Diego
