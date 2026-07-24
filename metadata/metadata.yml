@@ -3,12 +3,12 @@ name: Characterizing the visual representation of objects from the child’s vie
 description: |-
   # Characterizing the visual representation of objects from the child’s view
 
-  Computational reproducibility capsule for the *BabyView Objects* manuscript (*Nature Human Behaviour* submission, 2026).
+  Computational reproducibility capsule for the *BabyView Objects* manuscript (2026).
 
   ## Links
 
   - GitHub: https://github.com/babyview-project/babyview-objects-manuscript
-  - Code Ocean DOI (provisional): https://doi.org/10.24433/CO.0860553.v1
+  - Code Ocean provisional DOI (under review; may not resolve publicly until accepted): https://doi.org/10.24433/CO.0860553.v1
   - Code license: MIT; anonymized data: CC0 1.0
 
   ## What this capsule provides

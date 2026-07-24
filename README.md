@@ -1,8 +1,7 @@
 # BabyView Objects — analysis code & reproducibility capsule
 
 Computational reproducibility package for *Characterizing the visual
-representation of objects from the child’s view* (Nature Human Behaviour
-submission, 2026).
+representation of objects from the child’s view* (manuscript, 2026).
 
 This repository ships analysis source code, a small anonymized demo dataset,
 and a fixed compute environment (Code Ocean capsule). The default demo verifies
@@ -11,7 +10,7 @@ manuscript tables and does **not** require BabyView video or a GPU.
 | Resource | Link |
 |----------|------|
 | GitHub | https://github.com/babyview-project/babyview-objects-manuscript |
-| Code Ocean capsule (provisional DOI) | https://doi.org/10.24433/CO.0860553.v1 |
+| Code Ocean capsule | https://doi.org/10.24433/CO.0860553.v1 (**provisional DOI** — capsule is under Code Ocean review and may not resolve publicly until accepted) |
 | Detailed reproduction notes | [`REPRODUCING.md`](REPRODUCING.md) |
 | Data & code availability (incl. manuscript text) | [`code/manuscript-2026/DATA_AVAILABILITY.md`](code/manuscript-2026/DATA_AVAILABILITY.md) |
 
@@ -45,7 +44,11 @@ manuscript tables and does **not** require BabyView video or a GPU.
 
 ### Option A — Code Ocean (recommended for reviewers)
 
-1. Open the capsule: https://doi.org/10.24433/CO.0860553.v1  
+1. Open the capsule via the provisional DOI:
+   https://doi.org/10.24433/CO.0860553.v1  
+   (*Provisional:* the capsule is currently under Code Ocean review; the DOI
+   may not resolve publicly until the capsule is accepted/published. Editors
+   and reviewers with a peer-review link can still access the capsule.)
 2. Click **Reproducible Run** (entry point: `code/run`).  
 3. Inspect `/results`.
 

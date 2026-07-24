@@ -8,8 +8,8 @@ require restricted BabyView video or per-crop embeddings.
 | Resource | Link |
 |----------|------|
 | GitHub | https://github.com/babyview-project/babyview-objects-manuscript |
-| Code Ocean (provisional DOI) | https://doi.org/10.24433/CO.0860553.v1 |
-| Nature-style README (install / demo / licenses) | [`README.md`](README.md) |
+| Code Ocean | https://doi.org/10.24433/CO.0860553.v1 (**provisional DOI** — under review; may not resolve publicly until accepted) |
+| README (install / demo / licenses) | [`README.md`](README.md) |
 
 ## Layout
 

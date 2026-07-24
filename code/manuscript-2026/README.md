@@ -14,7 +14,7 @@ file mapping: [`REPRODUCTION.md`](REPRODUCTION.md).
 | [`../../README.md`](../../README.md) | System requirements, install, demo, licenses |
 | [`../../REPRODUCING.md`](../../REPRODUCING.md) | Capsule run and scope |
 | [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) | Data/code availability + manuscript paste text |
-| https://doi.org/10.24433/CO.0860553.v1 | Code Ocean capsule (provisional DOI) |
+| https://doi.org/10.24433/CO.0860553.v1 | Code Ocean capsule (**provisional DOI** — under review) |
 | [REPRODUCTION.md](REPRODUCTION.md) | Notebook order, dependencies, outputs |
 | [SCRIPTS.md](SCRIPTS.md) | Helper scripts in [`scripts/`](scripts/) |
 | [`../../data/shared_data_manuscript_2026/`](../../data/shared_data_manuscript_2026/) | Anonymized result tables |

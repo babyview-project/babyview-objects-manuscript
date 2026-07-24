@@ -6,7 +6,7 @@ Objects* (2026). Licensed under [MIT](LICENSE).
 | Resource | Link |
 |----------|------|
 | GitHub | https://github.com/babyview-project/babyview-objects-manuscript |
-| Code Ocean (provisional DOI) | https://doi.org/10.24433/CO.0860553.v1 |
+| Code Ocean | https://doi.org/10.24433/CO.0860553.v1 (**provisional DOI** — under review; may not resolve publicly until accepted) |
 
 ## Layout
 

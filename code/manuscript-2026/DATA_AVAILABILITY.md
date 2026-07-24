@@ -9,7 +9,7 @@ in the manuscript use **CLIP** and **DINOv3**.
 | Resource | Link / location |
 |----------|-----------------|
 | GitHub repository | https://github.com/babyview-project/babyview-objects-manuscript |
-| Code Ocean capsule (provisional DOI) | https://doi.org/10.24433/CO.0860553.v1 |
+| Code Ocean capsule | https://doi.org/10.24433/CO.0860553.v1 (**provisional DOI** — capsule is under Code Ocean review and may not resolve publicly until accepted) |
 | Code license | MIT ([`code/LICENSE`](../LICENSE)) |
 | Anonymized data license | CC0 1.0 ([`data/LICENSE`](../../data/LICENSE)) |
 | Restricted video (BabyView 2025.1) | https://www.databrary.org/volume/1882 |
@@ -45,20 +45,23 @@ section. Notebook order and figure ↔ file mapping are in
 ## Suggested manuscript text (Data and code availability)
 
 Paste into the manuscript (typically after Acknowledgments or as a dedicated
-statement). Update wording only if journal style requires it.
+statement). Update wording only if journal style requires it. After the Code
+Ocean capsule is accepted/published, drop the “provisional / under review”
+clause and keep the DOI.
 
 > **Data and code availability.** Analysis code for this study is available under
 > the MIT license at
 > https://github.com/babyview-project/babyview-objects-manuscript.
 > A computational reproducibility capsule, including anonymized intermediate
 > tables sufficient to verify the reported statistics and a fixed software
-> environment, is archived on Code Ocean
-> (https://doi.org/10.24433/CO.0860553.v1). The capsule’s default reproducible
-> run verifies the shipped tables and writes them to `/results`; optional
-> notebook re-execution regenerates embedding-level analyses from included
-> category-level embeddings. Raw BabyView egocentric video and per-image crop
-> assets are available via Databrary
-> (https://www.databrary.org/volume/1882) subject to the project’s data-use
-> agreement and are not redistributed with the capsule. Detailed descriptions of
-> the detection, filtering, embedding, and representational-similarity pipelines
-> are provided in the Methods & Materials section.
+> environment, is provided on Code Ocean
+> (provisional DOI https://doi.org/10.24433/CO.0860553.v1; capsule currently
+> under review). The capsule’s default reproducible run verifies the shipped
+> tables and writes them to `/results`; optional notebook re-execution
+> regenerates embedding-level analyses from included category-level embeddings.
+> Raw BabyView egocentric video and per-image crop assets are available via
+> Databrary (https://www.databrary.org/volume/1882) subject to the project’s
+> data-use agreement and are not redistributed with the capsule. Detailed
+> descriptions of the detection, filtering, embedding, and
+> representational-similarity pipelines are provided in the Methods & Materials
+> section.
