@@ -5,6 +5,12 @@ This capsule supports computational reproducibility of *BabyView Objects*
 use **CLIP** and **DINOv3**. The capsule does **not** re-run pipelines that
 require restricted BabyView video or per-crop embeddings.
 
+| Resource | Link |
+|----------|------|
+| GitHub | https://github.com/babyview-project/babyview-objects-manuscript |
+| Code Ocean (provisional DOI) | https://doi.org/10.24433/CO.0860553.v1 |
+| Nature-style README (install / demo / licenses) | [`README.md`](README.md) |
+
 ## Layout
 
 ```text
@@ -38,6 +44,9 @@ On Code Ocean these map to `/code`, `/data`, `/results`, and `/environment`.
 3. Copies the full anonymized shared tree into `/results/shared/` (required for
    the Code Ocean computation snapshot: main-text CSVs, inputs, embeddings,
    metadata, category lists, and VQA SI summaries)
+
+**Typical timing on a normal desktop:** dependency install ≈1 minute; default
+demo (verify + copy) under 1 minute after install. See [`README.md`](README.md).
 
 ### Optional environment variables
 

@@ -1,7 +1,12 @@
 # BabyView Objects — analysis code
 
 Manuscript analysis code and category-level embedding tables for *BabyView
-Objects* (2026).
+Objects* (2026). Licensed under [MIT](LICENSE).
+
+| Resource | Link |
+|----------|------|
+| GitHub | https://github.com/babyview-project/babyview-objects-manuscript |
+| Code Ocean (provisional DOI) | https://doi.org/10.24433/CO.0860553.v1 |
 
 ## Layout
 
@@ -16,19 +21,14 @@ Data siblings (capsule root): `data/shared_data_manuscript_2026/`, `results/`.
 
 ## Quick start
 
-1. Click **Reproducible Run** (executes [`run`](run)).
-2. Inspect `/results` (`shared/` + `regenerated_valid129/`).
+1. Click **Reproducible Run** (executes [`run`](run)), or from a local checkout run `./code/run`.
+2. Inspect `/results` (`shared/` + optional regenerated outputs).
 3. Optionally compare manuscript numbers to CSVs in
    `../data/shared_data_manuscript_2026/results_valid129/`.
 
-Details: [`../REPRODUCING.md`](../REPRODUCING.md) ·
+Nature checklist-style install/demo notes: [`../README.md`](../README.md) ·
+reproduction: [`../REPRODUCING.md`](../REPRODUCING.md) ·
 availability: [`manuscript-2026/DATA_AVAILABILITY.md`](manuscript-2026/DATA_AVAILABILITY.md).
-
-From a local checkout of this capsule:
-
-```bash
-./code/run
-```
 
 ## Scope of the default run
 

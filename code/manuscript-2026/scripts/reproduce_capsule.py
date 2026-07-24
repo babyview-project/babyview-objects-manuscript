@@ -120,6 +120,9 @@ def main() -> int:
                 "notebook",
                 "--execute",
                 "--inplace",
+                # Drop stale/invalid outputs before execute (avoids nbformat
+                # validation failures on incomplete stream metadata).
+                "--ClearOutputPreprocessor.enabled=True",
                 nb,
             ],
             env=env,

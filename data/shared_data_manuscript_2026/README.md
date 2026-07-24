@@ -1,10 +1,13 @@
 # Shared anonymized data (BabyView Objects)
 
-Anonymized intermediate tables for the *BabyView Objects* manuscript (June 2026).
+**Demo / verification dataset** for the *BabyView Objects* manuscript (June 2026):
+anonymized intermediate tables shipped with the code capsule (~11 MB).
 No raw video, crop paths, or real participant identifiers.
 
 Compare these CSVs to the manuscript, or run `code/run`
-(see [`../../REPRODUCING.md`](../../REPRODUCING.md)).
+(see [`../../README.md`](../../README.md) and [`../../REPRODUCING.md`](../../REPRODUCING.md)).
+
+Licensed under [CC0 1.0](../LICENSE).
 
 ## Layout
 

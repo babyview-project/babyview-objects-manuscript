@@ -1,0 +1,7 @@
+This repository contains analysis code and anonymized intermediate data for the
+BabyView Objects manuscript (2026).
+
+- Analysis code under `code/` is licensed under the MIT License.
+  See [`code/LICENSE`](code/LICENSE).
+- Anonymized tables under `data/` are dedicated to the public domain under
+  CC0 1.0. See [`data/LICENSE`](data/LICENSE).

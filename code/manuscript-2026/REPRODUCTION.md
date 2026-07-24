@@ -116,4 +116,6 @@ Supplement (valid85): `02`–`03` with `CATEGORY_SET=valid85`.
 
 ## Data and code availability
 
-See [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md).
+See [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) (includes GitHub link, Code
+Ocean DOI https://doi.org/10.24433/CO.0860553.v1, licenses, and suggested
+manuscript availability text).

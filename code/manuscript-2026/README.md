@@ -2,16 +2,19 @@
 
 Analysis code for the *BabyView Objects* manuscript.
 
-**Start here:** [`../../REPRODUCING.md`](../../REPRODUCING.md) (how to run this
-capsule) and [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md). Pipeline detail and
-figure ↔ file mapping: [`REPRODUCTION.md`](REPRODUCTION.md).
+**Start here:** [`../../README.md`](../../README.md) (Nature checklist-style
+install/demo), [`../../REPRODUCING.md`](../../REPRODUCING.md), and
+[`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md). Pipeline detail and figure ↔
+file mapping: [`REPRODUCTION.md`](REPRODUCTION.md).
 
 ## Quick links
 
 | Resource | Purpose |
 |----------|---------|
+| [`../../README.md`](../../README.md) | System requirements, install, demo, licenses |
 | [`../../REPRODUCING.md`](../../REPRODUCING.md) | Capsule run and scope |
-| [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) | Data and code availability |
+| [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) | Data/code availability + manuscript paste text |
+| https://doi.org/10.24433/CO.0860553.v1 | Code Ocean capsule (provisional DOI) |
 | [REPRODUCTION.md](REPRODUCTION.md) | Notebook order, dependencies, outputs |
 | [SCRIPTS.md](SCRIPTS.md) | Helper scripts in [`scripts/`](scripts/) |
 | [`../../data/shared_data_manuscript_2026/`](../../data/shared_data_manuscript_2026/) | Anonymized result tables |
